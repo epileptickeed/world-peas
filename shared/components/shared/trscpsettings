@@ -1,0 +1,17 @@
+{
+  "Create React Component": {
+    "prefix": "trscp",
+    "body": [
+      "import React from 'react';",
+      "",
+      "interface Props {",
+      "  className?: string;",
+      "}",
+      "",
+      "export const ${1:${TM_FILENAME_BASE/^([a-z]*)-*([a-z]*)/${1:/capitalize}${2:/capitalize}/g}}: React.FC<Props> = ({ className }) => {",
+      "  return <div className={className}></div>;",
+      "};"
+    ],
+    "description": "Создает React компонент с классом"
+  }
+}
