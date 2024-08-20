@@ -2,9 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Newsreader-italic';
+  src: url('../public/assets/font/Newsreader-italic.ttf');
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --green-clr: #426b1f;
+  --font-italic: 'Newsreader-italic';
+  --light-grey: #6d6d6d;
 }
 
 @layer utilities {
